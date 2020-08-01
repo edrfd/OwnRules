@@ -200,6 +200,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+      
   Bywave:
     type: http
     url: "https://sub.paasmi.com/subscribe/26247/5KzFG2Ise53w"
