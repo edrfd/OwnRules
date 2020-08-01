@@ -191,16 +191,6 @@ proxy-providers:
   # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
 
-  BlinkLoad:
-    type: http
-    url: "https://api.pay.pm/link/hsPkAzQ3g3U2PzYU?mu=1"
-    interval: 3600
-    path: ./Proxy/BlinkLoad.yaml # 不同机场不同命名
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-      
   Bywave:
     type: http
     url: "https://sub.paasmi.com/subscribe/26247/5KzFG2Ise53w"
