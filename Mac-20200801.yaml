@@ -38,10 +38,10 @@ dns:
 proxy-providers:
 
   Blinkload:
-    type: File
-    url: 
+    type: http
+    url: https://api.pay.pm/api/v1/link/clash?token=FzJcm4blQifix9qm
     interval: 3600
-    path: ./Proxy/BlinkLoad.yaml # 不同机场不同命名
+    path: ./Proxy/BlinkLoad1.yaml # 不同机场不同命名
     ealth-check:
       enable: true
       interval: 3600
